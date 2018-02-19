@@ -1,0 +1,167 @@
+icl_translation:
+  actions:
+    create: Created icl_translation
+    update:
+      message: Updated icl_translation
+      priority: 12
+    delete: Deleted icl_translation
+
+icl_content_status:
+   actions:
+    create: Created icl_content_status
+    update:
+      message: Updated icl_content_status
+      priority: 12
+    delete: Deleted icl_content_status
+
+icl_core_status:
+   actions:
+    create: Created icl_core_status
+    update:
+      message: Updated icl_core_status
+      priority: 12
+    delete: Deleted icl_core_status
+
+icl_flag:
+   actions:
+    create: Created icl_flag
+    update:
+      message: Updated icl_flag
+      priority: 12
+    delete: Deleted icl_flag
+
+icl_language:
+   actions:
+    create: Created icl_language
+    update:
+      message: Updated icl_language
+      priority: 12
+    delete: Deleted icl_language
+
+icl_languages_translation:
+   actions:
+    create: Created icl_languages_translation
+    update:
+      message: Updated icl_languages_translation
+      priority: 12
+    delete: Deleted icl_languages_translation
+
+icl_locale_map:
+   actions:
+    create: Created icl_locale_map
+    update:
+      message: Updated icl_locale_map
+      priority: 12
+    delete: Deleted icl_locale_map
+
+icl_message_status:
+   actions:
+    create: Created icl_message_status
+    update:
+      message: Updated icl_message_status
+      priority: 12
+    delete: Deleted icl_message_status
+
+icl_node:
+   actions:
+    create: Created icl_node
+    update:
+      message: Updated icl_node
+      priority: 12
+    delete: Deleted icl_node
+
+icl_reminder:
+   actions:
+    create: Created icl_reminder
+    update:
+      message: Updated icl_reminder
+      priority: 12
+    delete: Deleted icl_reminder
+
+icl_string:
+   actions:
+    create: Created icl_string
+    update:
+      message: Updated icl_string
+      priority: 12
+    delete: Deleted icl_string
+
+icl_string_package:
+   actions:
+    create: Created icl_string_package
+    update:
+      message: Updated icl_string_package
+      priority: 12
+    delete: Deleted icl_string_package
+
+icl_string_page:
+   actions:
+    create: Created icl_string_page
+    update:
+      message: Updated icl_string_page
+      priority: 12
+    delete: Deleted icl_string_page
+
+icl_string_position:
+   actions:
+    create: Created icl_string_position
+    update:
+      message: Updated icl_string_position
+      priority: 12
+    delete: Deleted icl_string_position
+
+icl_string_status:
+   actions:
+    create: Created icl_string_status
+    update:
+      message: Updated icl_string_status
+      priority: 12
+    delete: Deleted icl_string_status
+
+icl_string_translation:
+   actions:
+    create: Created icl_string_translation
+    update:
+      message: Updated icl_string_translation
+      priority: 12
+    delete: Deleted icl_string_translation
+
+icl_string_url:
+   actions:
+    create: Created icl_string_url
+    update:
+      message: Updated icl_string_url
+      priority: 12
+    delete: Deleted icl_string_url
+
+icl_translate:
+   actions:
+    create: Created icl_translate
+    update:
+      message: Updated icl_translate
+      priority: 12
+    delete: Deleted icl_translate
+
+icl_translate_job:
+   actions:
+    create: Created icl_translate_job
+    update:
+      message: Updated icl_translate_job
+      priority: 12
+    delete: Deleted icl_translate_job
+
+icl_translation_batch:
+   actions:
+    create: Created icl_translation_batch
+    update:
+      message: Updated icl_translation_batch
+      priority: 12
+    delete: Deleted icl_translation_batch
+
+icl_translation_status:
+   actions:
+    create: Created icl_translation_status
+    update:
+      message: Updated icl_translation_status
+      priority: 12
+    delete: Deleted icl_translation_status

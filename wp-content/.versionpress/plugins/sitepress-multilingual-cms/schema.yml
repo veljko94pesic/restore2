@@ -1,0 +1,129 @@
+icl_content_status:
+  table: icl_content_status
+  id: rid
+  references:
+    nid: icl_node
+
+icl_core_status:
+  table: icl_core_status
+  id: id
+  references:
+    rid: icl_content_status
+
+icl_flag:
+  table: icl_flags
+  id: id
+
+icl_language:
+  table: icl_languages
+  id: id
+
+icl_languages_translation:
+  table: icl_languages_translations
+  id: id
+
+icl_locale_map:
+  table: icl_locale_map
+  id: id
+
+icl_message_status:
+  table: icl_message_status
+  id: id
+  references:
+    rid: icl_content_status
+
+icl_mo_files_domain:
+  table: icl_mo_files_domains
+  id: id
+
+icl_translation:
+  table: icl_translations
+  id: translation_id
+  value-references:
+    element_type@element_id:
+      post_*: post
+      tax_*: term_taxonomy
+
+icl_node:
+  table: icl_node
+  id: nid
+
+icl_reminder:
+  table: icl_reminders
+  id: id
+
+icl_string:
+  table: icl_strings
+  id: id
+  references:
+    string_package_id: icl_string_package
+
+icl_string_package:
+  table: icl_string_packages
+  id: ID
+  references:
+    post_id: post
+
+icl_string_page:
+  table: icl_string_pages
+  id: id
+  references:
+    string_id: icl_string
+    url_id: icl_string_url
+
+icl_string_position:
+  table: icl_string_positions
+  id: id
+  references:
+    string_id: icl_string
+
+icl_string_status:
+  table: icl_string_status
+  id: id
+  references:
+    string_translation_id: icl_string_translation
+    rid: icl_content_status
+
+icl_string_translation:
+  table: icl_string_translations
+  id: id
+  references:
+    string_id: icl_string
+    batch_id: icl_translation_batch
+    translator_id: icl_translate
+
+icl_string_url:
+  table: icl_string_urls
+  id: id
+
+icl_translate:
+  table: icl_translate
+  id: tid
+  references:
+    job_id: icl_translate_job
+
+icl_translate_job:
+  table: icl_translate_job
+  id: job_id
+  references:
+    translator_id: icl_translate
+    rid: icl_translation_status
+
+icl_translation_batch:
+  table: icl_translation_batches
+  id: id
+
+icl_translation_status:
+  table: icl_translation_status
+  id: rid
+  references:
+    translation_id: icl_translation
+    translator_id: icl_translate
+    batch_id: icl_translation_batch
+
+option:
+  ignored-entities:
+    - 'option_name: wpml_prefix_hash'
+    - 'option_name: wpml_trid_count'
+    - 'option_name: wpml_language_switcher'
+    - 'option_name: wpml_language_switcher_template_objects'

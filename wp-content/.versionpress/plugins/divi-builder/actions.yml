@@ -1,0 +1,26 @@
+et_divi_ab_testing_client:
+  tags:
+    VP-Post-Type: /
+    VP-Post-Title: /
+  actions:
+    create: Created split testing client for %VP-Post-Type% '%VP-Post-Title%'
+    update:
+      message: Updated split testing client for %VP-Post-Type% '%VP-Post-Title%'
+      priority: 12
+    delete: Deleted split testing client for %VP-Post-Type% '%VP-Post-Title%'
+
+et_divi_ab_testing_stat:
+  tags:
+    VP-Subject-Id: subject_id
+    VP-Post-Type: /
+    VP-Post-Title: /
+  actions:
+    create:
+      message: Created split testing stat for subject no. '%VP-Subject-Id%' in %VP-Post-Type% '%VP-Post-Title%'
+      priority: 12
+    update:
+      message: Updated split testing stat for subject no. '%VP-Subject-Id%' in %VP-Post-Type% '%VP-Post-Title%'
+      priority: 15
+    delete:
+      message: Deleted split testing stat for subject no. '%VP-Subject-Id%' in %VP-Post-Type% '%VP-Post-Title%'
+      priority: 12

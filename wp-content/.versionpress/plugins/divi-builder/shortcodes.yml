@@ -1,0 +1,7 @@
+shortcode-locations:
+  post:
+    - post_content
+
+shortcodes:
+  et_pb_gallery:
+    gallery_ids: post

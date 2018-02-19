@@ -1,0 +1,11 @@
+et_divi_ab_testing_client:
+  table: et_divi_ab_testing_clients
+  id: id
+  references:
+    test_id: post
+
+et_divi_ab_testing_stat:
+  table: et_divi_ab_testing_stats
+  id: id
+  references:
+    test_id: post
